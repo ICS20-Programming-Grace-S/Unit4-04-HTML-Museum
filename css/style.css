@@ -5,11 +5,11 @@
 */
 
 body {
-	background-color: rgb(244, 235, 179);
+	background-color: rgb(224, 128, 214);
 }
 
 h1 {
-	background-color: rgb(242, 166, 80);
+	background-color: rgb(2214, 86, 200);
 	color: hsl(0, 0%, 0%);
 	padding: 40px;
 	text-align: center;
@@ -27,6 +27,6 @@ div {
 }
 
 #display-results{
-  background-color: #6bd686;
+  background-color: #f0c0ea;
 	font-size: 20px;
 }
