@@ -16,7 +16,10 @@ function displayCost() {
 	let select = document.getElementById('day');
 	let day = select.options[select.selectedIndex].value;
   	
-	if (age < 5 || age > 95) {
+	if (age <= 0) {
+    cost = "Please enter a valid age."
+  }
+    else if (age < 5 || age > 95) {
 		cost = "The admisson fee is FREE for you."
 	}
 	else if ((age >=12) && (age <=21)) {
@@ -29,7 +32,7 @@ function displayCost() {
 		cost = "You have to pay regular price."
 	}
   else {
-    cost = "Please make a proper selection."
+    cost = "Please make a proper selection above."
   }
   
   	// display the greeting
